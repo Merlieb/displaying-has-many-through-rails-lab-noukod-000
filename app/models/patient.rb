@@ -2,7 +2,7 @@ class Patient < ActiveRecord::Base
   has_many :appointments
   has_many :doctors, through: :appointments
 
-  def appointment_count
-    appointments.count
-  end
+  # def appointment_count
+  #   appointments.count
+  # end
 end
