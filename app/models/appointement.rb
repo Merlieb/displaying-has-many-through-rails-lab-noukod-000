@@ -6,11 +6,11 @@ class Appointment < ActiveRecord::Base
  # def patient_name
  #   patient.name
  # end
- # 
+ #
  # def doctor_name
  #   doctor.name
  # end
- # 
+ #
  # def appointment
  #   appointment_datetime.strftime("%B %d, %Y at %H:%M")
  # end
